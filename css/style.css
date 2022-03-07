@@ -23,6 +23,11 @@ body{
     flex-direction: column;
 }
 
+.d-flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .blue-button{
     background-color: #072AC8;
     color: #FFFFFF;
@@ -35,10 +40,30 @@ body{
     border: 0;
 }
 
+.blue-button:hover{
+    background-color: #292E47;
+    cursor: pointer;
+    
+}
+
 .heading-h1{
     font-weight: 700;
     font-size: 60px;
-    line-height: 70,31px;
+    line-height: 70.31px;
+    color: #292E47;
+}
+
+.heading-h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #292E47;
+}
+
+.body-text-24-medium{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
     color: #292E47;
 }
 
@@ -46,7 +71,7 @@ body{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    color: #514D67;
+    color: #6B708D;
 }
 
 .headline-17-medium{
@@ -54,10 +79,24 @@ body{
     font-style: normal;
     font-weight: 500;
     line-height: 130%;
-    color: #514D67;
+    color: #6B708D;
+    text-decoration: none;
 }
 
-/* Sections */
+.headline-17-regular{
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #6B708D;
+}
+
+.headline-13-regular{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15,23px;
+    color: #514D67;
+}
+/* MAIN PAGE */
 
 /* nav */
 .navBar{
@@ -72,7 +111,7 @@ body{
 
 .navBar ul{
     list-style: none;
-    gap: 3rem;
+    gap: 2.5rem;
     align-items: center;
     padding-bottom: 0.5rem;
 }
@@ -90,35 +129,51 @@ body{
     color:#367be4;
 }
 
-.navBar a:hover{
+.navBar ul a:hover{
     color:#072AC8;
 }
 
 /* main */
 main{
-    width: 70rem;
-    margin: auto;
 }
 
 /* index hero section */
 .hero-section{
-    height: 40rem;
+    margin: auto;
+    margin-top: 6rem;
+    width: 70rem;
+    padding: 1rem;
     justify-content: center;
+    align-items: center;
+    height: 40rem;
 }
 
 .hero-article-text{
     justify-content: center;
-    padding: 1rem;
     width: 50%;
-    /* width: 35rem; */
+    gap: 1.8rem;
+    padding: 1rem;
 }
 
-.hero-article-image{
+.hero-article-text p{
+    padding-right: 5.9rem;
+}
+
+.hero-article-text span{
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.hero-article-image{ /* li posem relative al pare de les imatges q ficarem en absolut per dir-li quin es l'scope en el que s'ha de moure */
+    position: relative;
     width: 50%;  
-    /* width: 35rem; */
 }
 
 .hero-img1{
+    height: 20rem;
+    position: absolute;
+    top: 0%;
+    left: -20%;
 }
 
 .hero-img2{
@@ -126,5 +181,144 @@ main{
 }
 
 .hero-img3{
+    height: 17rem;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+}
+
+.client-section{
+    margin: auto;
+    width: 70rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9rem;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    filter: grayscale(100%);
+}
+
+.projects-section{
+    margin: auto;
+    width: 70rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    padding: 1rem;
+    height: 35rem;
+}
+
+.projects-div{
+    height: 27.75rem;
+    margin-top: 4.375rem;
+    gap: 3rem;
+}
+
+.projects-div a{
+    color: #072AC8;
+    text-decoration: none;
+}
+
+.projects-div-article{
+    height: 27.75rem;
+    background-color: #FFFFFF;
+}
+
+.project-article-text{
+    padding: 1.8rem;
+    gap: 0.6rem;
+}
+
+.project-article-anchor{
+    padding: 1.8rem;
+}
+
+.project-image{
+    width: 21rem;
+    height: 15rem;
+}
+
+.testimonial-section{
+    position: relative;
+    width: 82.5rem;
+    height: 38rem;
+    background-color: #292E47;
+    background-image: url("../assets/testimonial-section/orbit.png");
+    background-size: cover;
+    margin: auto;
+    margin-top: 12rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.testimonial-section h3{
+    color: #FFFFFF;
+}
+
+.testimonial-section p{
+    color: #FFC600;
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.testimonial-section-img1{
+    height: 9.3rem;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.testimonial-section-img2{
+    height: 9.3rem;
+    position: absolute;
+    left: 79%;
+    top: 64%;
+    height: 9.3rem;
+}
+.testimonial-section-img3{
+    height: 9.3rem;
+    position: absolute;
+    left: 10%;
+    top: 64%;
+    height: 9.3rem;
+}
+.testimonial-section-img4{
+    height: 9.3rem;
+    position: absolute;
+    left: 79%;
+    top: 10%;
+    height: 9.3rem;
+}
+
+.testimonial-section-profile-article{
+    gap: 0.3rem;
+}
+
+.testimonial-section-profile-article article{
+    align-items: left;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.testimonial-section-profile-article strong{
+    color: #A2D6F9;
+}
+
+.testimonial-section-profile-article p{
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 0.3rem;
+
+}
+
+.testimonial-section-prfl-image{
+    height: 3.1rem;
+    width: 3.1rem;
+    border-radius: 50%;
+    background-image: url("../assets/testimonial-section/profile.png");
+    background-size: cover;
+    background-position: -6px;
     
 }
