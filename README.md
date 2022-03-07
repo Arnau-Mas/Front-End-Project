@@ -31,7 +31,7 @@ For this project, you’ll have access to the following assets:
 * A folder with all the images you will need for this project.
 
 <hr>
-You can download all assets from the following <a href="https://drive.google.com/drive/folders/1s48zMkVPVFViY2Go1H6_4prQ3sAS--FV?usp=sharing">project assets Google Drive folder</a>.
+You can download all assets from the following <a href="#">project assets Google Drive folder</a>.
 <hr>
 
 # Project description

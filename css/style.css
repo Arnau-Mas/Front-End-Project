@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F6FC;
+}
+
+/* Generics */
+
+.d-flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-button{
+    background-color: #072AC8;
+    color: #FFFFFF;
+    height: 3rem;
+    width: 9rem;
+    padding: 15px 36px 15px 36px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0;
+    border: 0;
+}
+
+.heading-h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70,31px;
+    color: #292E47;
+}
+
+.headline-20-regular{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #514D67;
+}
+
+.headline-17-medium{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    color: #514D67;
+}
+
+/* Sections */
+
+/* nav */
+.navBar{
+    width: 70rem;
+    height: 7.6rem;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 19.5rem;
+    margin: auto; /* tb puc posar auto al *, pero pot variar */
+    
+}
+
+.navBar ul{
+    list-style: none;
+    gap: 3rem;
+    align-items: center;
+    padding-bottom: 0.5rem;
+}
+
+.navBar a{
+    text-decoration: none;
+    color:#514D67;
+}
+
+.navBar img{
+    padding-bottom: 0.5rem;
+}
+
+.navBar .nav-selected{
+    color:#367be4;
+}
+
+.navBar a:hover{
+    color:#072AC8;
+}
+
+/* main */
+main{
+    width: 70rem;
+    margin: auto;
+}
+
+/* index hero section */
+.hero-section{
+    height: 40rem;
+    justify-content: center;
+}
+
+.hero-article-text{
+    justify-content: center;
+    padding: 1rem;
+    width: 50%;
+    /* width: 35rem; */
+}
+
+.hero-article-image{
+    width: 50%;  
+    /* width: 35rem; */
+}
+
+.hero-img1{
+}
+
+.hero-img2{
+    height: 39rem;
+}
+
+.hero-img3{
+    
+}
