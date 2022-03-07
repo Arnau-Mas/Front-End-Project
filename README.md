@@ -27,7 +27,7 @@ Finally, you’ll have to deploy this project to Netlify, using the Git CLI to d
 # Project assets
 For this project, you’ll have access to the following assets:
 
-* A <a href="https://figma.com">Figma</a> design that you will have to turn into a live, responsive website. This design also includes a few specifications regarding fonts and colors
+* A <a href="https://circle-agency-35d27e.webflow.io/">Figma</a> design that you will have to turn into a live, responsive website. This design also includes a few specifications regarding fonts and colors
 * A folder with all the images you will need for this project.
 
 <hr>

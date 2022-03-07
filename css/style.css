@@ -353,14 +353,86 @@ body{
     font-size: 24px;
     line-height: 28.13px;
     color: #292E47;
-/*     padding-top: 1.875rem; */
-}
-
-.services-section-card p{
-/*     padding-top: 1.25rem; */
 }
 
 .services-section-card a{
     text-decoration: none;
     color:#072AC8;
+}
+
+.cta-section{
+    width: 82.5rem;
+    height: 31.5rem;
+    margin: auto;
+    margin-top: 11.5rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC600;
+    gap: 1rem;
+}
+
+.cta-section p{
+    color: #292E47;
+}
+
+.cta-section input{
+    margin-top: 2rem;
+    width: 24.5rem;
+    height: 5.1rem;
+    border: 0px;
+    background-image: url("../assets/newsletter/icon/mail.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 2rem;
+    font-size: 17px;
+}
+
+/* .cta-section input:focus{
+    border: 0px;
+}
+    FALTA EDITAR EL INPUT QUAN ESTÀ FOCUS
+.cta-section input:focus-visible{
+    
+} */
+
+.cta-section input::placeholder{
+    color: #292E47;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5rem;
+    
+}
+
+.cta-section button{
+    height: 5rem;
+    width: 12.3rem;
+}
+
+.footer{
+    width: 70rem;
+    height: 7.6rem;
+    margin: auto; 
+    margin-top: 10.6rem;
+    gap: 200px;
+    padding-bottom: 6rem;
+    justify-content: space-between;
+}
+
+.footer-logo img{
+    padding-bottom: 1.87rem;
+    width: 6.1rem;
+}
+
+.footer-logo address{
+    line-height: 25.5px;
+}
+
+
+.footer-list ul{
+    list-style: none;
+    flex-wrap: wrap;
+    width: 27.18rem;
+    gap: 5rem;
+    justify-content: left;
 }
