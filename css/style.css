@@ -377,32 +377,32 @@ body{
 
 .cta-section input{
     margin-top: 2rem;
-    width: 24.5rem;
+    width: 14.8rem;
     height: 5.1rem;
     border: 0px;
     background-image: url("../assets/newsletter/icon/mail.svg");
     background-repeat: no-repeat;
     background-position: left;
     background-position-x: 2rem;
-    font-size: 17px;
+    font-size: 15px;
+    text-align: center;
+    padding: 0rem 3rem 0rem 5rem;
 }
 
-/* .cta-section input:focus{
+.cta-section input:focus{
     border: 0px;
+    outline-width: 0;
+    outline: none;
 }
-    FALTA EDITAR EL INPUT QUAN ESTÀ FOCUS
-.cta-section input:focus-visible{
-    
-} */
 
 .cta-section input::placeholder{
     color: #292E47;
     font-size: 17px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
-    padding-left: 5rem;
-    
+    text-align: center;
 }
+
 
 .cta-section button{
     height: 5rem;
@@ -436,3 +436,5 @@ body{
     gap: 5rem;
     justify-content: left;
 }
+
+/* En cas de que un cop acabada la pagina, al fer-la responsive a 1090 no es queda centrada, fes q les seccions q no toquen a les bandes toquin */
