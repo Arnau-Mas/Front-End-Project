@@ -6,42 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Page</title>
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../javascript/contact.js" defer></script>
 </head>
 <body>
     <nav class="navBar d-flex-row">
-        <img src="../assets/logos/circle.svg" alt="Circle logo">
+        <a href="#"><img src="../assets/logos/circle.svg" alt="Circle logo"></a>
         <ul class="d-flex-row headline-17-medium">
             <li><a class="nav-selected" href="#">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="#services">Services</a></li>
         </ul>
-        <button class="blue-button">Contact Us</button>
+        <a href="#"><button class="blue-button">Contact Us</button></a>
     </nav>
-    <section>
-        <h1>Contact Us</h1>
-        <form action="">
-            <label for="name">Full Name*</label>
-            <input type="text" name="name" id="name">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-            <label for="phone">Phone</label>
-            <input type="tel" name="phone" id="phone">
-            <label for="message">Message</label>
-            <input type="text" name="message" id="message">
-            <button>Submit</button>
-        </form>
-    </section>
-    <footer>
+    <main class="contact-main">
+        <section class="contact-section">
+            <h1 class="heading-h1">Contact us</h1>
+            <form class="contact-form">
+                <label for="name" class="d-flex-column">
+                    Full Name*
+                    <input class="input-name contact-section-input" type="text" name="name" id="name" placeholder="Enter your full name" maxlength="100" required>
+                </label>
+                <div class="d-flex-row input-div">
+                    <label for="email" class="d-flex-column">
+                        Email
+                        <input class="input-email contact-section-input" type="email" name="email" id="email" placeholder="Enter your email address" maxlength="294">
+                    </label>
+                    <label for="phone" class="d-flex-column">
+                        Phone
+                        <input class="input-phone contact-section-input" type="tel" name="phone" id="phone" placeholder="Enter your phone number" maxlength="12">
+                    </label>
+                </div>
+                <label for="message" class="d-flex-column">
+                    Message
+                    <textarea  class="input-message" type="" name="message" id="message" placeholder="Write your message here ...."></textarea>
+                </label>
+                <button class="blue-button form-button" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer class="footer d-flex-row">
+        <article class="footer-logo">
         <img src="../assets/logos/circle.svg" alt="Circle logo">
-        <address>2972 Westheimer Rd. Santa Ana, Illinois 85486</address>
-        <ul>
-            <li>Team</li>
-            <li>Services</li>
-            <li>About Us</li>
-            <li>Press</li>
-            <li>Projects</li>
-            <li>Privacy Policy</li>
-        </ul>
+        <address class="headline-17-regular">2972 Westheimer Rd. Santa Ana,<br> Illinois 85486</address>
+        </article>
+        <article class="footer-list">
+            <ul  class="d-flex-row headline-17-regular">
+                <li>Team</li>
+                <li>Services</li>
+                <li>About Us</li>
+                <li>Press</li>
+                <li>Projects</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </article>
     </footer>
 </body>
 </html>
