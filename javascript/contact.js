@@ -9,8 +9,6 @@ async function postData() {
     let email = document.querySelector("#email").value;
     let phone = document.querySelector("#phone").value;
     let message = document.querySelector("#message").value;
-    let hiddenMessage = document.querySelector(".hidden-message");
-    console.log(hiddenMessage)
     let data = {};
     if(name){
         data.name = name;
