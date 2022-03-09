@@ -1,5 +1,3 @@
-
-
 async function getProjects(){
     const response = await fetch("http://localhost:3000/posts");
     const data = await response.json();

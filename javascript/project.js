@@ -1,6 +1,6 @@
 const projectSection = document.querySelector(".project-hero-section");
 const projectsDiv = document.querySelector(".projects-div");
-console.log(projectSection);
+
 async function printHeroProject(index){
     let projects = await getProjects();
     let project = projects[index];
@@ -13,7 +13,7 @@ async function printHeroProject(index){
 </article>
     <article class="project-hero-article">
     <img class="project-hero-article-img" src="../assets/projects-section/${index+1}.jpg" alt="project image">
-        <p class="headline-20-regular">${project.content}<br><br>${project.content} ${project.content}<br><br>${project.content}</p>
+        <p class="headline-20-regular">${project.content}<br><br>${project.content} ${project.content}</p>
     </article>`
 }
 
