@@ -567,6 +567,7 @@ body{
 }
 
 /* Media queries */
+
 @media (max-width:480px){
     .navBar{
         width: 80vw;
@@ -806,9 +807,7 @@ body{
         text-align: center;
         padding: 0rem 3rem 0rem 5rem;
     }
-    .cta-section a{
-        width: 100%;
-    }
+    
     .cta-section button{
         height: 5rem;
         width: 15.5rem;
@@ -953,32 +952,8 @@ body{
         justify-content: center;
         padding-top: 4rem;
     }
-}
-/* 
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
- */
+}/* done except nav bar */
+
 @media screen and (min-width:1025px) and (max-width:1237px){
     .navBar{
         gap: 0;
@@ -1118,10 +1093,10 @@ a
     .input-message{
         width: 56rem;
     }
-}
+} /* done */
 
 @media screen and (min-width:769px) and (max-width:1024px){
-    body{
-        background-color: green;
-    }
-}
+} /* not done */
+
+@media screen and (min-width:481px) and (max-width:1024px){
+} /* not done */
