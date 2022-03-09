@@ -821,8 +821,43 @@ body{
         text-align: center;
     }
     
+    /* Project Page 2 */
+    .project-hero-section{
+        margin: auto;
+        width: 82vw;
+        margin-top: 3.75rem;
+        gap: 1.2rem;
+        overflow:hidden;
+    }
 
+    .project-hero-article h1{
+        font-size: 45px;
+        text-align: center;
+    }
 
+    .project-hero-article-img{
+        width: 80vw;
+        max-width: 21rem;
+        height: 15rem;
+        size: cover;
+    }
+    
+    .project-hero-subtitle{
+        flex-direction: column;
+    }
+    
+    .project-hero-subtitle-firstp{
+        font-size: 20px;
+    }
+
+    .project-hero-subtitle-secondp{
+        font-size: 16px;
+    }
+
+    .project-hero-article > p {
+        margin-top: 2.3rem;
+        font-size: 16px;
+    }
 
     /* Contact Page 3 */
     .contact-main{
