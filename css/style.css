@@ -601,6 +601,230 @@ body{
         height: 1.5 rem;
     }
 
+    /* PAGE 1 */
+    .hero-section{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 0;
+        width: 80vw;
+        justify-content: none;
+        align-items: center;
+        height: auto;
+        padding: 2rem;
+    }
+    
+    .hero-article-text{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1.8rem;
+        padding: 1rem;
+        text-align: center;
+       
+    }
+    
+    .hero-article-text h1{
+        font-size: 30px;
+        line-height: 2rem;
+        
+    }
+
+    .hero-article-text p{
+        padding-right: 0;
+        font-size: 16px;
+    }
+    
+    .hero-article-text span{
+        margin-top: 1rem;
+        flex-direction:column-reverse;
+        align-items: center;
+        gap: 1.3rem;
+    }
+    
+    .hero-article-image{ 
+        margin-top: 1rem;
+        position: relative;
+        width: 75vw;  
+    }
+    
+    .hero-img1{
+        height: 0.1rem;
+        position: absolute;
+        top: 0%;
+        left: -20%;
+        visibility: hidden;
+    }
+    
+    .hero-img2{
+        height: 85vw;
+    }
+    
+    .hero-img3{
+        height: 0.1rem;
+        position: absolute;
+        top: 75%;
+        left: 70%;
+        visibility: hidden;
+    }
+
+    .client-section{
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80vw;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        filter: grayscale(100%);
+    }
+
+    .projects-section{
+        width: 80vw;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        height: auto;
+    }
+
+    .projects-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .projects-div{
+        height: auto;
+        width: 80vw;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    
+    .project-image{
+        width: 80vw;
+        max-width: 21rem;
+    }
+
+    .testimonial-section{
+        position: static;
+        width: 82.5vw;
+        height: 30rem;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0rem 2rem 0rem 2rem;
+        
+    }
+    
+    .testimonial-section h3{
+        font-size: 32px;
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+    
+    .testimonial-section-img1{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img2{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img3{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img4{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+
+    .services-section{
+        width: 80vw;
+        margin: auto;
+        margin-top: 3.5rem;
+    }
+
+    .services-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .services-section-article{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        gap: 2.5rem;
+    
+    }
+
+    .cta-section{
+        width: 100%;
+        height: 31.5rem;
+        margin: auto;
+        margin-top: 3.5rem;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFC600;
+        gap: 0rem;
+    }
+    
+    .cta-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    .cta-section p{
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+    
+
+    .cta-section form{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        align-items: center;
+        gap: 1rem;
+    }
+    .cta-section input{
+        width: 7.5rem;
+        height: 5rem;
+        text-align: center;
+        padding: 0rem 3rem 0rem 5rem;
+    }
+    .cta-section a{
+        width: 100%;
+    }
+    .cta-section button{
+        height: 5rem;
+        width: 15.5rem;
+    }
+    .cta-section input::placeholder{
+        color: #292E47;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+
+
+
+    /* Contact Page 3 */
     .contact-main{
         width: 90vw;
         height: auto;
@@ -695,7 +919,31 @@ body{
         padding-top: 4rem;
     }
 }
-
+/* 
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+ */
 @media screen and (min-width:1025px) and (max-width:1237px){
     .navBar{
         gap: 0;
