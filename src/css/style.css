@@ -905,21 +905,21 @@ body{
     }
 
     .input-name{
-        width: 95%;
+        width: 92%;
         height: 3rem;
     }
     .input-email{
-        width: 95%;
+        width: 92%;
         height: 3rem;
     }
 
     .input-phone{
-        width: 95%;
+        width: 92%;
         height: 3rem;
     }
 
     .input-message{
-        width: 87%;
+        width: 85%;
     }
 
     .contact-form button{
