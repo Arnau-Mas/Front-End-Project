@@ -2,7 +2,7 @@
 
 # Front-End-Project
 
-In this project, you’re going to be building and deploying your first fully responsive website using the technologies you’ve learned so far: HTML, CSS & JavaScript.
+In this project, you’re going to be building and deploying your first fully **responsive website from Desktop size to Mobile**, using the technologies you’ve learned so far: HTML, CSS & JavaScript.
 
 Later in the course, you’re going to learn how to create more complex web applications using Vue.js on top of JavaScript. However, it’s important that you practice the basic coding skills you’ve learned so far before moving on to more complex tasks.
 
