@@ -1,6 +1,7 @@
 async function getProjects(){
-    const response = await fetch("http://localhost:3000/posts");
+    const response = await fetch("https://marketplace.freelancewebdesign.online/wp-json/wp/v2/projects");
     const data = await response.json();
+    console.log("aaa", data);
     return data;
 }
 
