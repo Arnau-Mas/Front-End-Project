@@ -1112,7 +1112,556 @@ body{
 } /* done */
 
 @media screen and (min-width:769px) and (max-width:1024px){
-} /* not done */
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    main{
+        margin: auto;
+    }
+    
+    .navBar{
+        gap: 0;
+        justify-content: space-between;
+        padding: 2rem;
+        width: 60rem;
+    }
+
+    .navBar img{
+        height: 2rem;
+    }
+
+    .hero-section{
+        margin-top: 4rem;
+        width: 60rem;
+    }
+    
+    .hero-img1{
+        height: 12rem;
+        left: -5%;
+        top: 7%;
+    }
+    .hero-img2{
+        height: 34rem;
+    }
+
+    .hero-img3{
+        height: 12rem;
+        left: 65%;
+        top: 70%;
+        
+    }
+
+    .client-section{
+        width: 60rem;
+        gap: 6rem;
+        margin-top: 6rem;
+    }
+
+    .projects-section{
+        width: 60rem;
+        flex-wrap: wrap;
+        margin-top: 10rem;
+    }
+
+    .projects-div{
+        flex-wrap:wrap;
+        height: 25rem;
+    }
+
+    .project-image{
+        width: 18rem;
+        height: 13rem;
+    }
+    .projects-div-article{
+        height: 0;
+        
+    }
+
+    .testimonial-section{
+       width: 64rem; /* o 60rem, depen */
+       justify-content: space-evenly;
+       height: 35rem;
+       margin-top: 7rem;
+    }
+
+    .testimonial-section-img1{
+    height: 7.3rem;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    }
+    .testimonial-section-img2{
+        height: 7.3rem;
+        position: absolute;
+        left: 82%;
+        top: 70%;
+    }
+
+    .testimonial-section-img3{
+        height: 7.3rem;
+        position: absolute;
+        left: 5%;
+        top: 70%;
+    }
+    .testimonial-section-img4{
+        height: 7.3rem;
+        position: absolute;
+        left: 82%;
+        top: 10%;
+    }
+    .services-section{
+        width: 60rem;
+    }
+
+    .cta-section{
+        width: 100%;
+    }
+
+    .footer{
+        width: 60rem;
+        justify-content: space-around;
+    }
+
+    /* PROJECT PAGE 2  */
+    .project-hero-section{
+        margin: auto;
+        width: 60rem;
+        /* height: 70rem; */
+        margin-top: 8.75rem;
+        gap: 5rem;
+        /* overflow:hidden; */
+    }
+
+    /* CONTACT PAGE 3 */
+    .contact-main{
+        width: 60rem;
+    }
+    .input-div{
+        justify-content: space-between;
+        gap: 2rem;
+        
+    }
+
+    .input-name{
+        width: 56rem;
+    }
+
+    .input-email{
+        width: 25.5rem;
+        margin-right: 1rem;
+    }
+    
+    .input-phone{
+        width: 25.5rem;
+    }
+    
+    .input-message{
+        width: 56rem;
+    }
+} /* done */
 
 @media screen and (min-width:481px) and (max-width:769px){
-} /* not done */
+    body{
+        margin-left: 3rem;
+    }
+    .navBar{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        position: relative;
+        width: 82.5vw;
+        flex-wrap: wrap;
+        height: 4rem;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        margin: 0; /* tb puc posar auto al *, pero pot variar */
+        
+    }
+    
+    .navBar ul{
+        list-style: none;
+        gap: 1rem;
+        padding: 0;
+        /* padding-left: 2rem; */
+        /* position: absolute;
+        flex-direction: column; */
+    }
+
+    .navBar button{
+        position: absolute;
+        top: 5;
+        left: 0;
+        height: 0.01rem;
+        width: 0.01rem;
+        display: none;
+        visibility: hidden;
+    }
+
+    .navBar a{
+        text-decoration: none;
+        color:#514D67;
+    }
+    
+    .navBar img{
+        padding-bottom: 0;
+        height: 1.5 rem;
+    }
+
+    /* PAGE 1 */
+    .hero-section{
+        flex-direction: column;
+        margin: auto;
+        margin-top: 0;
+        width: 80vw;
+        justify-content: none;
+        align-items: center;
+        height: auto;
+        padding: 1.5rem 2rem 2rem 2rem;
+    }
+    
+    .hero-article-text{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1.8rem;
+        padding: 1rem;
+        text-align: center;
+       
+    }
+    
+    .hero-article-text h1{
+        font-size: 30px;
+        line-height: 2rem;
+        
+    }
+
+    .hero-article-text p{
+        padding-right: 0;
+        font-size: 16px;
+    }
+    
+    .hero-article-text span{
+        margin-top: 1rem;
+        flex-direction:column-reverse;
+        align-items: center;
+        gap: 1.3rem;
+    }
+    
+    .hero-article-image{ 
+        margin-top: 1rem;
+        position: relative;
+        width: 75vw;  
+    }
+    
+    .hero-img1{
+        height: 0.1rem;
+        position: absolute;
+        top: 0%;
+        left: -20%;
+        visibility: hidden;
+    }
+    
+    .hero-img2{
+        height: 85vw;
+    }
+    
+    .hero-img3{
+        height: 0.1rem;
+        position: absolute;
+        top: 75%;
+        left: 70%;
+        visibility: hidden;
+    }
+
+    .client-section{
+        flex-wrap: wrap;
+        margin: auto;
+        width: 80vw;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        filter: grayscale(100%);
+    }
+
+    .projects-section{
+        width: 80vw;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+        height: auto;
+    }
+
+    .projects-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .projects-div{
+        height: auto;
+        width: 80vw;
+        justify-content: center;
+        margin-top: 2rem;
+        gap: 1rem;
+    }
+    
+    .project-image{
+        width: 80vw;
+        max-width: 21rem;
+    }
+
+    .testimonial-section{
+        position: static;
+        width: 82.5vw;
+        height: 30rem;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0rem 2rem 0rem 2rem;
+        
+    }
+    
+    .testimonial-section h3{
+        font-size: 32px;
+        text-align: center;
+        padding: 2rem 0 0 0;
+    }
+    
+    .testimonial-section-img1{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img2{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img3{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+    .testimonial-section-img4{
+        height: 0;
+        position: none;
+        visibility: hidden;
+        left: 0%;
+        top: 0%;
+    }
+
+    .services-section{
+        width: 80vw;
+        margin: auto;
+        margin-top: 3.5rem;
+    }
+
+    .services-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .services-section-article{
+        flex-wrap: wrap;
+        margin-top: 2rem;
+        gap: 2.5rem;
+    
+    }
+
+    .cta-section{
+        width: 100%;
+        height: 31.5rem;
+        margin: auto;
+        margin-top: 3.5rem;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFC600;
+        gap: 0rem;
+    }
+    
+    .cta-section h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    .cta-section p{
+        margin-top: 1rem;
+        font-size: 16px;
+    }
+    
+
+    .cta-section form{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        align-items: center;
+        gap: 1rem;
+    }
+    .cta-section input{
+        width: 7.5rem;
+        height: 5rem;
+        text-align: center;
+        padding: 0rem 3rem 0rem 5rem;
+    }
+    
+    .cta-section button{
+        height: 5rem;
+        width: 15.5rem;
+    }
+    .cta-section input::placeholder{
+        color: #292E47;
+        font-size: 17px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    
+    /* Project Page 2 */
+    .project-hero-section{
+        margin: auto;
+        width: 82vw;
+        margin-top: 2rem;
+        gap: 1.2rem;
+        overflow:hidden;
+    }
+
+    .p-hero-article-2{
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .project-hero-article h1{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .project-hero-article-img{
+        width: 80vw;
+        max-width: 21.5rem;
+        height: 15rem;
+        size: cover;
+    }
+    
+    .project-hero-subtitle{
+        flex-direction: column;
+    }
+    
+    .project-hero-subtitle-firstp{
+        font-size: 20px;
+    }
+
+    .project-hero-subtitle-secondp{
+        font-size: 16px;
+    }
+
+    .project-hero-article > p {
+        margin-top: 2.3rem;
+        font-size: 16px;
+    }
+
+    /* Contact Page 3 */
+    .contact-main{
+        width: 90vw;
+        height: auto;
+    }
+
+    .contact-section{
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contact-section h1{
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 3rem;
+        
+    }
+    .contact-form{
+        justify-content: center;
+        display: block;
+        align-items: center;
+        margin: auto;
+    }
+    .contact-form label{
+        margin-top: 1.5rem;
+        font-size: 20px;
+        justify-content: center;
+    }
+
+    .input-name{
+        width: 92%;
+        height: 3rem;
+    }
+    .input-email{
+        width: 92%;
+        height: 3rem;
+    }
+
+    .input-phone{
+        width: 92%;
+        height: 3rem;
+    }
+
+    .input-message{
+        width: 85%;
+    }
+
+    .contact-form button{
+        margin-top: 1.5rem;
+        width: 102%;
+        
+    }
+
+    .footer{
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        margin-top: 6.5rem;
+    }
+
+    .footer-logo{
+        display: flex;
+        flex-direction: column;  
+        align-items: center;
+    }
+
+    .footer-logo img{
+        padding-bottom: 1.87rem;
+        width: 8rem;
+    }
+    
+    .footer-logo address{
+        line-height: 25.5px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .footer-list{
+        margin-left: 0.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .footer-list ul{
+        list-style: none;
+        width: 75vw;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap:1.5rem;
+        align-items: center;
+        justify-content: center;
+        padding-top: 4rem;
+    }
+}/* not done */
