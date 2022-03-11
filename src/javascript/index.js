@@ -7,8 +7,8 @@ async function printCard(){
         <article class="projects-div-article">
             <img class="project-image" src="../assets/projects-section/${i+1}.jpg" alt="">
             <article class="project-article-text d-flex-column">
-                <h6 class="body-text-24-medium">${projects[i].title}</h6>
-                <p class="headline-17-regular">${projects[i].description}</p>
+                <h6 class="body-text-24-medium">${projects[i].title.rendered}</h6>
+                <p class="headline-17-regular">${projects[i].acf.description}</p>
             </article>
             <article class="headline-17-medium project-article-anchor"><a href="#">Learn More</a></article>
         </article>`

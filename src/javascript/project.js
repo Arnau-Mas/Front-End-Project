@@ -5,9 +5,9 @@ async function printHeroProject(index){
     let projects = await getProjects();
     let project = projects[index];
     projectSection.innerHTML = `<article class="project-hero-article">
-    <h1 class="heading-h1">${project.title}</h1>
+    <h1 class="heading-h1">${project.title.rendered}</h1>
     <article class="d-flex-row project-hero-subtitle">
-        <p class="body-text-24-medium project-hero-subtitle-firstp">${project.description}</p>
+        <p class="body-text-24-medium project-hero-subtitle-firstp">${project.acf.description}</p>
         <p class="headline-20-regular project-hero-subtitle-secondp"><span>Completed on</span> June 22, 2021</p>
     </article>    
 </article>
