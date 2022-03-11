@@ -11,7 +11,7 @@ async function printHeroProject(index){
         <p class="headline-20-regular project-hero-subtitle-secondp"><span>Completed on</span> June 22, 2021</p>
     </article>    
 </article>
-    <article class="project-hero-article p-hero-article-2 d-flex-column">
+    <article class="project-hero-article p-hero-article-2 d-flex-column headline-20-regular">
     <img class="project-hero-article-img" src="../assets/projects-section/${index+1}.jpg" alt="project image">
         <p class="headline-20-regular">${project.content.rendered}</p>
     </article>`
